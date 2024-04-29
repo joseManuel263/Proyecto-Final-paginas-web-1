@@ -1,0 +1,16 @@
+<div class="conteiner hobbies">
+    <div class="card_title">
+        <h1>Series</h1>
+    </div>
+    <div class="cards">
+        @for (serie of series; track $index) {
+        <div class="card_conteiner" (click)="openDialog(serie)">
+            <p>{{ serie.name }}</p>
+            <div class="conteiner_img">
+                <img class="img" src="{{ serie.link_foto }}" alt="" />
+                <p>Mas detalles</p>
+            </div>
+        </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+.mat-mdc-dialog-container {
+    background-color: azure !important;
+    border-radius: 64px !important;
+    overflow: hidden !important;
+
+}
+html,
+body {
+    height: 100%;
+    font-family: "Angkor", serif !important;
+}
+
+
+
+body {
+    margin: 0;
+}
+
+
+:root {
+    --primary: #41B4CA;
+    --secondary: #BFDE42:
+}
+
+.links_group{
+    padding: 4px;
+    svg{
+        flex-shrink: 0;
+    }
+}
+
+mat-drawer{
+    .logo{
+        display: none;
+    }
+    &:hover{
+        .logo, .links-name{
+            display: inline;
+        }
+    }
+}
+
+* {
+    font-family: "Angkor", serif !important;
+
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-drawer-content {
+    height: unset !important;
+}

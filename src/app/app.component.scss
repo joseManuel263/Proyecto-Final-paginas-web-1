@@ -1,0 +1,29 @@
+
+
+mat-drawer-container {
+    height: 100vh;
+    .mat-drawer {
+        background: transparent !important;
+    }
+    .mat-drawer-side {
+        border: none !important;
+    }
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1002%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(54%2c 48%2c 98%2c 1)'%3e%3c/rect%3e%3cpath d='M317.79 137.76L319.9 137.76L319.9 151.83L317.79 151.83z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1313.22 535.89L1342.8 535.89L1342.8 538.53L1313.22 538.53z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1311.95 483.75L1320.1 483.75L1320.1 530.25L1311.95 530.25z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1195.52 405.74 a16.44 16.44 0 1 0 32.88 0 a16.44 16.44 0 1 0 -32.88 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M252.64 377.59L297.66 377.59L297.66 422.61L252.64 422.61z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1315.73 420.55L1346.34 420.55L1346.34 430.87L1315.73 430.87z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1016.32 365.36 a47.02 47.02 0 1 0 94.04 0 a47.02 47.02 0 1 0 -94.04 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M163.36 180L168.42 180L168.42 185.06L163.36 185.06z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M475.61 277.3L494.94 277.3L494.94 296.63L475.61 296.63z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M407.82 58.36a5.6 5.6 0 1 0-5.99-9.46z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M49.52 374.41L60.69 374.41L60.69 385.58L49.52 385.58z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1313.71 36.6L1364.73 36.6L1364.73 87.62L1313.71 87.62z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M494.03 140.38L544.45 140.38L544.45 190.8L494.03 190.8z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M788.96 328.53L815.33 328.53L815.33 354.9L788.96 354.9z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M584.1 296.66L633.53 296.66L633.53 346.09L584.1 346.09z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M417.74 417.35L439.33 417.35L439.33 440.49L417.74 440.49z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M364.89 477.7 a13.62 13.62 0 1 0 27.24 0 a13.62 13.62 0 1 0 -27.24 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M221.03-24.69a43.96 43.96 0 1 0-36.65 79.92z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1332.62 299.44L1354.41 299.44L1354.41 321.23L1332.62 321.23z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M880.39 131.92a38.39 38.39 0 1 0-69.96-31.62z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M955.44 219.39 a13.67 13.67 0 1 0 27.34 0 a13.67 13.67 0 1 0 -27.34 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M442.14 107.61L458 107.61L458 123.47L442.14 123.47z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M637.15 377.39 a30.4 30.4 0 1 0 60.8 0 a30.4 30.4 0 1 0 -60.8 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M103.24 239.55L143.22 239.55L143.22 263.59L103.24 263.59z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M288.84 317.51 a3.16 3.16 0 1 0 6.32 0 a3.16 3.16 0 1 0 -6.32 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M-8.44 523.96 a23.06 23.06 0 1 0 46.12 0 a23.06 23.06 0 1 0 -46.12 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M106.63 136.19a34.21 34.21 0 1 0 28.8 62.07z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M233.59 503.09L247.12 503.09L247.12 518.32L233.59 518.32z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M869.75 153.44 a38.81 38.81 0 1 0 77.62 0 a38.81 38.81 0 1 0 -77.62 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M269.49 551.67 a29.49 29.49 0 1 0 58.98 0 a29.49 29.49 0 1 0 -58.98 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M261.26 513.34L279.07 513.34L279.07 520.48L261.26 520.48z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M459.32 264.62 a17.34 17.34 0 1 0 34.68 0 a17.34 17.34 0 1 0 -34.68 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M393.98 256.94 a37.89 37.89 0 1 0 75.78 0 a37.89 37.89 0 1 0 -75.78 0z' fill='%23037b0b'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1002'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    
+}
+mat-drawer {
+    width: 48px;
+    transition-duration: 300ms;
+    &:hover{
+        width: 320px;
+    };
+}
+
+mat-drawer-content{
+    margin-left: 48px;
+    transition-duration: 300ms;
+}
+
+mat-drawer:hover~ mat-drawer-content{
+    margin-left: 320px !important;
+}

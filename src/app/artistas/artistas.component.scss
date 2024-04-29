@@ -1,0 +1,74 @@
+.conteiner {
+    height: 100vh !important;
+    display: flex !important;
+    overflow: hidden;
+    flex-direction: column;
+    //background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1069%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3crect width='60' height='60' clip-path='url(%26quot%3b%23SvgjsClipPath1070%26quot%3b)' x='935.41' y='356.35' fill='url(%26quot%3b%23SvgjsPattern1071%26quot%3b)' transform='rotate(220.83%2c 965.41%2c 386.35)'%3e%3c/rect%3e%3cpath d='M738.8199999999999 60.12 L714.1800000000001 155.54L684.9304116217797 66.26041162177972z' fill='rgba(199%2c 180%2c 66%2c 1)'%3e%3c/path%3e%3crect width='60' height='60' clip-path='url(%26quot%3b%23SvgjsClipPath1072%26quot%3b)' x='444.4' y='12.56' fill='url(%26quot%3b%23SvgjsPattern1073%26quot%3b)' transform='rotate(45.34%2c 474.4%2c 42.56)'%3e%3c/rect%3e%3crect width='332.12' height='332.12' clip-path='url(%26quot%3b%23SvgjsClipPath1074%26quot%3b)' x='1062.33' y='365.87' fill='url(%26quot%3b%23SvgjsPattern1075%26quot%3b)' transform='rotate(6.35%2c 1228.39%2c 531.93)'%3e%3c/rect%3e%3ccircle r='46.666666666666664' cx='773.99' cy='498.93' fill='rgba(199%2c 180%2c 66%2c 1)'%3e%3c/circle%3e%3cpath d='M1241.37 316.38L1228.57 316.39 1225.75 303.9 1212.94 303.91 1210.12 291.42 1197.32 291.43 1194.5 278.94M1246.37 310.13L1233.56 310.14 1230.74 297.65 1217.93 297.66 1215.12 285.17 1202.31 285.18 1199.49 272.68' stroke='rgba(181%2c 34%2c 221%2c 1)' stroke-width='2.92' stroke-dasharray='4%2c 4'%3e%3c/path%3e%3cpath d='M177.07 432.34999999999997 L154.43 383.2L131.70212661916645 441.8228733808335z' fill='rgba(181%2c 34%2c 221%2c 1)'%3e%3c/path%3e%3crect width='108' height='108' clip-path='url(%26quot%3b%23SvgjsClipPath1076%26quot%3b)' x='1118.94' y='231.4' fill='url(%26quot%3b%23SvgjsPattern1077%26quot%3b)' transform='rotate(275.94%2c 1172.94%2c 285.4)'%3e%3c/rect%3e%3ccircle r='53.66545302186534' cx='982' cy='227.48' stroke='rgba(181%2c 34%2c 221%2c 1)' stroke-width='1'%3e%3c/circle%3e%3ccircle r='46.666666666666664' cx='277.53' cy='329.57' fill='rgba(181%2c 34%2c 221%2c 1)'%3e%3c/circle%3e%3crect width='114.48' height='114.48' clip-path='url(%26quot%3b%23SvgjsClipPath1078%26quot%3b)' x='616.78' y='352.27' fill='url(%26quot%3b%23SvgjsPattern1079%26quot%3b)' transform='rotate(139.17%2c 674.02%2c 409.51)'%3e%3c/rect%3e%3crect width='168' height='168' clip-path='url(%26quot%3b%23SvgjsClipPath1080%26quot%3b)' x='515.97' y='423.2' fill='url(%26quot%3b%23SvgjsPattern1081%26quot%3b)' transform='rotate(239.57%2c 599.97%2c 507.2)'%3e%3c/rect%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1069'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1071'%3e%3cpath d='M3 1L3 5M1 3L5 3' stroke='rgba(199%2c 180%2c 66%2c 1)' fill='none' stroke-width='1'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1070'%3e%3ccircle r='15' cx='965.41' cy='386.35'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='60' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1073'%3e%3crect width='60' height='3' x='0' y='0' fill='rgba(181%2c 34%2c 221%2c 1)'%3e%3c/rect%3e%3crect width='60' height='3' x='0' y='3' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1072'%3e%3ccircle r='15' cx='474.4' cy='42.56'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='7.22' height='7.22' patternUnits='userSpaceOnUse' id='SvgjsPattern1075'%3e%3cpath d='M0 7.22L3.61 0L7.22 7.22' stroke='rgba(199%2c 180%2c 66%2c 1)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1074'%3e%3ccircle r='83.03' cx='1228.39' cy='531.93'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1077'%3e%3cpath d='M0 6L3 0L6 6' stroke='rgba(181%2c 34%2c 221%2c 1)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1076'%3e%3ccircle r='27' cx='1172.94' cy='285.4'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='114.48' height='6.36' patternUnits='userSpaceOnUse' id='SvgjsPattern1079'%3e%3crect width='114.48' height='3.18' x='0' y='0' fill='rgba(181%2c 34%2c 221%2c 1)'%3e%3c/rect%3e%3crect width='114.48' height='3.18' x='0' y='3.18' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1078'%3e%3ccircle r='28.62' cx='674.02' cy='409.51'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1081'%3e%3cpath d='M3 1L3 5M1 3L5 3' stroke='rgba(199%2c 180%2c 66%2c 1)' fill='none' stroke-width='1'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1080'%3e%3ccircle r='42' cx='599.97' cy='507.2'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+    background-position: center;
+    padding: 16px;
+    gap: 32px;
+
+    .cards {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        height: calc(100% - 50px);
+        overflow: scroll;
+    }
+
+    .card_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        gap: 32px;
+        height: 80px;
+        width: 88vw;
+        border-radius: 24px;
+        background-color: #1E0342;
+        h1{
+            font-size: 42px !important;
+            color: #E1F7F5;
+
+        }
+    }
+
+    .card_conteiner {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        gap: 16px;
+        height: 400;
+        width: 300px;
+        border-radius: 24px;
+        background-color: #3D5467;
+        font-size: 18px;
+        color: #F8FCDA;  
+    }
+}
+
+.conteiner_img{
+    position: relative;
+    p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 16px;
+        opacity: 0;
+    }
+    &:hover P{
+        opacity: 1;
+    }
+    .img{
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 12px;
+        &:hover{
+            opacity: 0.33;
+        }
+    }
+}

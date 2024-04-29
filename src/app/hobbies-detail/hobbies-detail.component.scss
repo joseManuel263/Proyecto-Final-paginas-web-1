@@ -1,0 +1,47 @@
+.conteiner{
+    display: flex;
+    background-color: #0A2342;
+    border-radius: 8px;
+    height: 80vh;
+    width: 75vw;
+    gap: 16px;
+    padding: 52px;
+    flex-direction: column;
+    color: #FFFDF7;
+    .img_conteiner{
+        display: flex;
+        flex-direction: row;
+        .text_conteiner{
+            .card_title{
+                display: flex;
+                opacity: 1;
+                align-items: center;
+                height: 80px;
+                border-radius: 24px;
+                padding: 12px;
+                gap: 32px;
+                h1{
+                    font-size: 32px !important;
+                    
+                }
+            }
+            p{
+                font-size: 24px;
+            }
+        }
+        @media (min-width: 640px) {
+            img{
+                height: 0vh !important;
+                width: 0vw !important;
+            }
+        }
+        @media (min-width: 1280px) {
+            img{
+                height: 80vh !important;
+                width: 45vw !important;
+                margin-left: 16px;
+                border-radius: 24px;
+            }
+        }
+    }
+}

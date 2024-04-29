@@ -1,0 +1,16 @@
+<div class="conteiner musica">
+    <div class="card_title">
+        <h1>Series</h1>
+    </div>
+    <div class="cards">
+        @for (musica of musicas; track $index) {
+        <div class="card_conteiner" (click)="openDialog(musica)">
+            <p>{{ musica.name }}</p>
+            <div class="conteiner_img">
+                <img class="img" src="{{ musica.link_foto }}" alt="" />
+                <p>Mas detalles</p>
+            </div>
+        </div>
+        }
+    </div>
+</div>

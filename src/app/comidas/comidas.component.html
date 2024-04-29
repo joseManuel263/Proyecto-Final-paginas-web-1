@@ -1,0 +1,16 @@
+<div class="conteiner hobbies">
+    <div class="card_title">
+        <h1>Comidas</h1>
+    </div>
+    <div class="cards">
+        @for (comida of comidas; track $index) {
+        <div class="card_conteiner" (click)="openDialog(comida)">
+            <p>{{ comida.name }}</p>
+            <div class="conteiner_img">
+            <img class="img" src="{{ comida.link_foto }}" alt="" />
+            <p>Mas detalles</p>
+            </div>
+        </div>
+        }
+    </div>
+</div>
